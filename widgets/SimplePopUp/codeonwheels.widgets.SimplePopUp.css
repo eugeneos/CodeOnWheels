@@ -1,0 +1,55 @@
+/*
+ * CSS for Simple PopUp widget for GM In-Vehicle Apps: codeonwheels.widgets.SimplePopUp.css
+ * Copyright (c) 2013, Eugene Osovetsky
+ * Please see license in accompanying .js file
+ */
+ 
+ /* Centering code from http://stackoverflow.com/questions/3030121/how-can-i-center-a-box-of-unknown-width-in-css
+   and http://www.tightcss.com/centering/center_variable_width.htm */
+.codeonwheels-widgets-cbo { 
+   overflow: hidden;
+   position: relative;
+ }
+.codeonwheels-widgets-cbm {
+  float: left;
+  position:relative;
+  left:50%;
+}
+.codeonwheels-widgets-cbi {
+  position:relative;
+  left:-50%;
+}
+ 
+ .codeonwheels-widgets-SimplePopUp
+ {
+ 	position:absolute;
+ 	margin-top:30px;
+ 	margin-left:30px;
+ 	width:740px;
+ 	height:300px;
+ 	background-color:black;
+ 	color:white;
+ 	border:3px groove darkgray;
+ 	border-radius:10px;
+ 	z-index:1024;
+ }
+ 
+ .codeonwheels-widgets-SimplePopUp-Title
+ {
+ 	font-size:x-large;
+ 	font-weight:bold;
+ 	padding:15px;
+ 	text-align:center;
+ }
+ 
+ .codeonwheels-widgets-SimplePopUp-Details
+ {
+ 	font-size:x-large;
+ 	padding: 0 15px 15px;
+ }
+ 
+ .codeonwheels-widgets-SimplePopUp-Button
+ {
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
